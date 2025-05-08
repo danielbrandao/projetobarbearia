@@ -1,0 +1,81 @@
+/* Tag */
+section{
+    /*margin-left: 20px;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    height: 300px;
+  } 
+  .header{
+    background-color:rgb(25, 25, 123); 
+    color: beige; 
+    text-align: center; 
+    height: 25%; 
+    margin-top: 0px; 
+    padding-top: 20px;
+  }
+  /* Classe */ 
+  .espaco{
+    padding-top: 20px;
+  }
+  .texto-azul{
+    color: blue;
+  }
+  .float-img{
+    float: left;
+    width: 100px;
+  }
+  .fundo-azul{
+    /*background-color: #000080;*/
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+
+  }
+  .section-tabela{
+    float: left;
+    border: 1px;
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+    width: 50%;
+    flex: content;
+  }
+  .section-lista{
+    float: right;
+    width: 50%;
+    flex: contents;
+
+  }
+  .section-form{
+    width: 100%;
+    margin-top: 100px;
+    height: 300px;
+  }
+
+  .div-flex{
+    display: flex;
+  }
+
+  .menu a{
+    color: gold;
+  }
+  .menu a:hover {
+    color: #aaa;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 120%;
+    background-color: yellow;
+  }
+  .menu a:active {
+    color: #a51616;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  /* ID */
+  #topo{
+    font-size: 110%;
+  }
+
+  #logo{
+    height: 50%;
+
+  }

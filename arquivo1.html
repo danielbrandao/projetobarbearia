@@ -1,0 +1,126 @@
+<html>
+<head>
+  <title>Meu site</title>
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    
+    .p-azul{
+      color: #000080;
+    }
+  </style>
+</head>
+<body style="margin: 0px;">
+ <header class="espaco header" id="topo" >
+   <h1 > HTML 
+    <sup>Linguagem de Marcação de Hipertexto</sup>
+   </h1>
+   <h3>Tutorial para Iniciantes</h3>
+   <nav class="menu">
+    <a href="#topo">Topo </a>
+    <a href="#html">Sobre HTML </a>
+    <a href="#tabela">Tabela e Lista </a>
+    <a href="#form">Formulário de contato </a>
+   </nav>
+  </header>
+  <section id="html" class="espaco texto-azul">
+   <img id="logo" class="float-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png"  >
+   <p class="p-azul">
+      <strong> <ins>HTML</ins> </strong>
+   <i>(Linguagem de marcação de Hipertexto)</i>
+   é o bloco de construção mais básico da web. 
+   <mark>
+   Define o significado e a estrutura do conteúdo da web
+   </mark>. 
+   Outras tecnologias do HTML geralmente são usadas para descrever a aparência/apresentaçção (CSS) ou a funcionalidade/comportamento 
+   <em>(JavaScript)</em> de uma página web.
+   </p>
+   </section>
+   <div id="tabela" class="div-flex">
+   <section class="texto-azul section-tabela">
+    
+   <table class="texto-azul">
+   <!--  Table = tabela   -->
+   	<thead>
+      <tr>
+        <th>TAgs HTML </th>
+        <th>Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+    	<tr>
+          <td>HTML</td>
+          <td>Define um documento HTML</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Define um documento HTML</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Define um documento HTML</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Define um documento HTML</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Define um documento HTML</td>
+        </tr>
+    </tbody>   
+   </table>
+   </section>
+   <section class="section-lista">
+    <h4>Protocolos da Web</h4>
+    <ul>
+      <li>HTTP - Hypertext Transfer Protocol</li>
+      <li>FTP - File Tranfer Protocol</li>
+      <li>SMTP</li>
+    </ul>
+  </section>
+</div>
+<section id="form" class="section-form">
+    <form method="post" action="novo.html">
+        <label>Nome:</label>
+        <input type="text" name="nome" required placeholder="Digite seu nome">
+        <br>
+        <label>Idade:</label>
+        <input type="number" name="idade" min="12" max="99">
+        <br>
+        <label>E-mail:</label>
+        <input type="email" name="email" placeholder="seunome@seuemail.com">
+        <br>
+        <label>Assunto:</label>
+        <select name="assunto">
+            <option value="Elogio">Elogio</option>
+            <option value="Sugestão">Sugestão</option>
+            <option value="Reclamação">Reclamação</option>
+        </select>
+        <br>
+        <label>Mensagem:</label>
+        <textarea name="mensagem" placeholder="Sua mensagem aqui"></textarea>
+        <br>
+        <label>
+            <input type="checkbox" name="termo" value="aceito" required>
+            Aceito os termos do site para envio dos dados.
+        </label>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+<footer class="header">
+  <div>
+    2025 &COPY; Direitos Reservados
+  </div>
+  <div class="header">
+    <nav class="menu">
+      <a href="#topo">Topo </a>
+      <a href="#html">Sobre HTML </a>
+      <a href="#tabela">Tabela e Lista </a>
+      <a href="#form">Formulário de contato </a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
